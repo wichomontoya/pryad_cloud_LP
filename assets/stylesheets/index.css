@@ -1,0 +1,64 @@
+body {
+  font-size: 15px;
+  margin: 0;
+}
+label {
+  width: 100%;
+}
+input {
+  width: 100%;
+  -webkit-appearance: none;
+  background-color: #C6C4C3;
+  height: 45px;
+}
+.home__header {
+  width: 100%;
+  position: relative;
+}
+.home__header--logo{
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+.home__content {
+  padding: 30% 5% 0;
+  height: 50vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.home__content--image {
+  width: 40%;
+}
+.home__content--text {
+  width: 60%;
+  text-align: center;
+}
+.home__content--text h3{
+  font-size: 25px;
+  width: 100%;
+}
+.home__content--text h3 span {
+  color: #E12A32;
+}
+.home__content--text section {
+  display: flex;
+}
+.home__content--paragraph {
+  width: 50%;
+  text-align: left;
+}
+.home__content--form {
+  width: 50%;
+  text-align: left;
+}
+.home__footer {
+  width: 100%;
+  height: 140px;
+  background-color: #D52023;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
